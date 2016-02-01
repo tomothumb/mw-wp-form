@@ -304,10 +304,10 @@ class MW_WP_Form_Mail {
 			$this->to = $admin_mail_to;
 		}
 		if ( !$this->from ) {
-			$this->from = $admin_mail_from;;
+			$this->from = $admin_mail_from;
 		}
 		if ( !$this->sender ) {
-			$this->sender = $admin_mail_sender;;
+			$this->sender = $admin_mail_sender;
 		}
 	}
 
@@ -319,10 +319,10 @@ class MW_WP_Form_Mail {
 		$reply_mail_sender = get_bloginfo( 'name' );
 
 		if ( !$this->from ) {
-			$this->from = $reply_mail_from;;
+			$this->from = $reply_mail_from;
 		}
 		if ( !$this->sender ) {
-			$this->sender = $reply_mail_sender;;
+			$this->sender = $reply_mail_sender;
 		}
 	}
 
